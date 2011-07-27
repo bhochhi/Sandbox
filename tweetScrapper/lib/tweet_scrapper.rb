@@ -1,13 +1,14 @@
 require 'net/http'
 require "json"
 class TweetScrapper
-   def displayTweets(searchWord)
+  def displayTweets(searchWord)
 
   end
 
   def searchTweetsWithURIs(searchWord)
 
   end
+
   def searchTweetsWithRedirectedURIs(searchWord)
 
   end
@@ -24,11 +25,15 @@ class TweetScrapper
             resp = Net::HTTP.get_response(URI.parse(possible_url))
               #Displaying URI  only if they are Redirected
             if resp.code.eql?("301")
-              puts "Original Url: #{possible_url}"
-              redirectedUrl = resp["location"]
-              puts "Redirected Url: #{redirectedUrl}"
-                # Checking if Redirected URL is for youtube domain
-              puts "THIS IS YouTube" if URI.parse(redirectedUrl).host.include?("youtube")
+              begin
+                puts "Original Url: #{possible_url}"
+                redirectedUrl = resp["location"]
+                puts "Redirected Url: #{redirectedUrl}"
+                  # Checking if Redirected URL is for youtube domain
+                puts "THIS IS YouTube" if URI.parse(redirectedUrl).host.include?("youtube")
+              rescue
+                puts possible_url + "couldn't be parsed correctly"
+              end
             end
           end
         }
