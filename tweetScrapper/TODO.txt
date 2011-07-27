@@ -1,0 +1,4 @@
+# To Scrap Realtime tweets based on searchWord --DONE
+# To parse to tweets to extracts the URIs --DONE
+# To parse URIs redirected to youtube --DONE
+# To build the player to play youtube videos
