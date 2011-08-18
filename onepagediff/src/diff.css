@@ -1,0 +1,88 @@
+/*
+ * Styles for the Tag Diff
+ */
+
+div.region-of-interest {
+  background-color: #ffffcc;
+  border: 3px dotted red !important;
+  display: block;  
+}
+
+span.diff-tag-removed {
+  text-decoration: line-through;
+  background-color: #dd1100 !important; /* light red */
+}
+
+span.diff-tag-added {
+  background-color: #22ee33 !important; /* light green */
+}
+
+/*
+ * Styles for the HTML Diff
+ */
+span.diff-html-added {
+  background-color: #22ee33 !important; /* light green */
+}
+
+span.diff-html-removed {
+  text-decoration: line-through;
+  background-color: #dd1100 !important; /* light red */
+}
+
+span.diff-html-added img {
+ border: 4px solid #22ee33 !important;
+}
+
+span.diff-html-removed img {
+ border: 4px solid #dd1100 !important;
+}
+
+span.diff-html-changed img {
+ border: 4px dotted #000099;
+ 
+}
+
+div.diff-removed-image, div.diff-added-image{
+  height: 300px;
+  width: 200px;  
+  position: absolute;
+  opacity : 0.55;
+  filter: alpha(opacity=55);
+  -moz-opacity: 0.55;
+}
+
+div.diff-removed-image, div.diff-added-image {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+div.diff-removed-image {
+  background-color: #dd1100;
+  background-image: url(../images/diffmin.gif);
+}
+div.diff-added-image {
+  background-color: #22ee33;
+  background-image: url(../images/diffplus.gif);
+  background-repeat: no-repeat;
+}
+
+table.diff-tooltip-link, table.diff-tooltip-link-changed {
+   width: 100%;
+   text-align: center;
+   Vertical-align: middle;
+}
+
+table.diff-tooltip-link-changed {
+    border-top: thin dashed #000000; 
+    margin-top: 3px; 
+    padding-top: 3px
+}
+
+table.diffpage-html-firstlast {
+  width: 100%;
+  Vertical-align: middle;
+}
+
+
