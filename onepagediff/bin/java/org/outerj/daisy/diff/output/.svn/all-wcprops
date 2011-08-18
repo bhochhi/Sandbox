@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/143/trunk/daisydiff/src/java/org/outerj/daisy/diff/output
+END
+Differ.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/143/trunk/daisydiff/src/java/org/outerj/daisy/diff/output/Differ.java
+END
+TextDiffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/143/trunk/daisydiff/src/java/org/outerj/daisy/diff/output/TextDiffer.java
+END
+DiffOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/143/trunk/daisydiff/src/java/org/outerj/daisy/diff/output/DiffOutput.java
+END
+TextDiffOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/143/trunk/daisydiff/src/java/org/outerj/daisy/diff/output/TextDiffOutput.java
+END

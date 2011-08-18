@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/107/trunk/daisydiff/src/java/org/eclipse/compare/internal
+END
+LCS.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/107/trunk/daisydiff/src/java/org/eclipse/compare/internal/LCS.java
+END
+LCSSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/89/trunk/daisydiff/src/java/org/eclipse/compare/internal/LCSSettings.java
+END
+CompareMessages.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/89/trunk/daisydiff/src/java/org/eclipse/compare/internal/CompareMessages.java
+END

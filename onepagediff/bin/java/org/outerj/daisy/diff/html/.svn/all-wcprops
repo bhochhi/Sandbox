@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/162/trunk/daisydiff/src/java/org/outerj/daisy/diff/html
+END
+TextNodeComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/153/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/TextNodeComparator.java
+END
+HTMLDiffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/153/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/HTMLDiffer.java
+END
+HtmlSaxDiffOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/153/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/HtmlSaxDiffOutput.java
+END

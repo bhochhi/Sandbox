@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/143/trunk/daisydiff/src/java/org/outerj/daisy/diff/tag
+END
+DelimiterAtom.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/89/trunk/daisydiff/src/java/org/outerj/daisy/diff/tag/DelimiterAtom.java
+END
+Atom.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/85/trunk/daisydiff/src/java/org/outerj/daisy/diff/tag/Atom.java
+END
+IAtomSplitter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/85/trunk/daisydiff/src/java/org/outerj/daisy/diff/tag/IAtomSplitter.java
+END
+TagSaxDiffOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/143/trunk/daisydiff/src/java/org/outerj/daisy/diff/tag/TagSaxDiffOutput.java
+END
+TagComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/89/trunk/daisydiff/src/java/org/outerj/daisy/diff/tag/TagComparator.java
+END
+TextAtom.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/85/trunk/daisydiff/src/java/org/outerj/daisy/diff/tag/TextAtom.java
+END
+ArgumentComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/85/trunk/daisydiff/src/java/org/outerj/daisy/diff/tag/ArgumentComparator.java
+END
+TagDiffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/143/trunk/daisydiff/src/java/org/outerj/daisy/diff/tag/TagDiffer.java
+END
+TagAtom.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/85/trunk/daisydiff/src/java/org/outerj/daisy/diff/tag/TagAtom.java
+END

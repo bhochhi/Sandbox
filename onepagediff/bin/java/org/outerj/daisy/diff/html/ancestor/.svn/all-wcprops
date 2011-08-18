@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/144/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/ancestor
+END
+ChangeTextGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/144/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/ancestor/ChangeTextGenerator.java
+END
+AncestorComparatorResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/143/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/ancestor/AncestorComparatorResult.java
+END
+AncestorComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/143/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/ancestor/AncestorComparator.java
+END
+TagChangeSematic.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/89/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/ancestor/TagChangeSematic.java
+END
+ChangeText.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/144/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/ancestor/ChangeText.java
+END
+TextOnlyComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/89/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/ancestor/TextOnlyComparator.java
+END

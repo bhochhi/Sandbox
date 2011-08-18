@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/162/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/dom
+END
+DomTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/89/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/dom/DomTree.java
+END
+TagNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/162/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/dom/TagNode.java
+END
+WhiteSpaceNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/89/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/dom/WhiteSpaceNode.java
+END
+BodyNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/107/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/dom/BodyNode.java
+END
+SeparatingNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/155/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/dom/SeparatingNode.java
+END
+Node.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/150/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/dom/Node.java
+END
+DomTreeBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/155/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/dom/DomTreeBuilder.java
+END
+ImageNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/89/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/dom/ImageNode.java
+END
+TextNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/153/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/dom/TextNode.java
+END

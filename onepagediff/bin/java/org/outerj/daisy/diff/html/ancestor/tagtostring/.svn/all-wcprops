@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/143/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/ancestor/tagtostring
+END
+messages.properties
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/85/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/ancestor/tagtostring/messages.properties
+END
+AnchorToString.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/107/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/ancestor/tagtostring/AnchorToString.java
+END
+TagToString.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/143/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/ancestor/tagtostring/TagToString.java
+END
+messages_nl.properties
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/85/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/ancestor/tagtostring/messages_nl.properties
+END
+TagToStringFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/89/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/ancestor/tagtostring/TagToStringFactory.java
+END
+NoContentTagToString.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/89/trunk/daisydiff/src/java/org/outerj/daisy/diff/html/ancestor/tagtostring/NoContentTagToString.java
+END
