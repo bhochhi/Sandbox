@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/html/ancestor
+END
+ChangeTextGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/html/ancestor/ChangeTextGenerator.java
+END
+AncestorComparatorResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/html/ancestor/AncestorComparatorResult.java
+END
+AncestorComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/html/ancestor/AncestorComparator.java
+END
+TagChangeSematic.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/html/ancestor/TagChangeSematic.java
+END
+ChangeText.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/html/ancestor/ChangeText.java
+END
+TextOnlyComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/html/ancestor/TextOnlyComparator.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/diffengine/!svn/ver/16/trunk/src/java/org/eclipse/compare/internal
+END
+LCS.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/diffengine/!svn/ver/16/trunk/src/java/org/eclipse/compare/internal/LCS.java
+END
+LCSSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/diffengine/!svn/ver/16/trunk/src/java/org/eclipse/compare/internal/LCSSettings.java
+END
+CompareMessages.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/diffengine/!svn/ver/16/trunk/src/java/org/eclipse/compare/internal/CompareMessages.java
+END

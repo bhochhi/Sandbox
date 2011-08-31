@@ -53,11 +53,23 @@ class Problems
     digits.times do
        num<<9.to_s
     end
-     puts num
-     
+    maxProduct = num.to_i*num.to_i
+     puts maxProduct
+    while(true)
+      if(isPalindrome(maxProduct))
+        put maxProduct if !Prime.prime?(maxProduct)
+      else
+        maxProduct=maxProduct - 1
+      end
+    end
+  end
+  def isPalindrome num
+    sNum=num.to_s
+    sNum
   end
 end
-Problems.new.getLargestPalindromeFromTheProductOfTwoNDigitsNum(4)
+
+Problems.new.getLargestPalindromeFromTheProductOfTwoNDigitsNum(3)
 
 
 #puts Problems.new.sumOfMultiplesOf3Or5BelowGivenNumberAlt(1000)

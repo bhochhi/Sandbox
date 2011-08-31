@@ -1,0 +1,32 @@
+package com.telogical.diff.util;
+
+import java.beans.PropertyEditor;
+import java.util.Map;
+
+import org.springframework.beans.PropertyEditorRegistrar;
+import org.springframework.beans.PropertyEditorRegistry;
+
+public class MappedPropertyEditorRegistrar
+  implements PropertyEditorRegistrar {
+
+  private Map<String, PropertyEditor> editors;
+  
+  public void setEditors(Map<String, PropertyEditor> editors) {
+    this.editors = editors;
+  }
+
+  @Override
+  public void registerCustomEditors(PropertyEditorRegistry registry) {
+    
+    for (String classname : editors.keySet()) {
+      try {
+        Class cls = Class.forName(classname);
+        PropertyEditor editor = editors.get(classname);
+        registry.registerCustomEditor(cls, editor);
+      }
+      catch (Exception e) {
+        // catch classes that can't be created, continue to next
+      }
+    }
+  }
+}

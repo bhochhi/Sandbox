@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/diffengine/!svn/ver/49/trunk/src/java/org/outerj/daisy/diff
+END
+DaisyDiff.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/DaisyDiff.java
+END
+htmlheader.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/htmlheader.xsl
+END
+Main.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/Main.java
+END
+section.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/section.xsl
+END
+tagheader.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/tagheader.xsl
+END
+XslFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/XslFilter.java
+END
+cleanup.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/cleanup.xsl
+END
+HtmlCleaner.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/HtmlCleaner.java
+END

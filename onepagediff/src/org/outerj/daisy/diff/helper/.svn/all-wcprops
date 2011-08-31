@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/diffengine/!svn/ver/49/trunk/src/java/org/outerj/daisy/diff/helper
+END
+MergeCharacterEventsHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/helper/MergeCharacterEventsHandler.java
+END
+SaxBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/helper/SaxBuffer.java
+END
+NekoHtmlParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/diffengine/!svn/ver/49/trunk/src/java/org/outerj/daisy/diff/helper/NekoHtmlParser.java
+END

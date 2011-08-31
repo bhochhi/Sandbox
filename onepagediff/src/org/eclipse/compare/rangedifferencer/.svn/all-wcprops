@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/diffengine/!svn/ver/16/trunk/src/java/org/eclipse/compare/rangedifferencer
+END
+RangeComparatorLCS.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/diffengine/!svn/ver/16/trunk/src/java/org/eclipse/compare/rangedifferencer/RangeComparatorLCS.java
+END
+DifferencesIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/diffengine/!svn/ver/16/trunk/src/java/org/eclipse/compare/rangedifferencer/DifferencesIterator.java
+END
+RangeDifference.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/diffengine/!svn/ver/16/trunk/src/java/org/eclipse/compare/rangedifferencer/RangeDifference.java
+END
+RangeDifferencer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/diffengine/!svn/ver/16/trunk/src/java/org/eclipse/compare/rangedifferencer/RangeDifferencer.java
+END
+OldDifferencer.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/diffengine/!svn/ver/16/trunk/src/java/org/eclipse/compare/rangedifferencer/OldDifferencer.java
+END
+IRangeComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/diffengine/!svn/ver/16/trunk/src/java/org/eclipse/compare/rangedifferencer/IRangeComparator.java
+END

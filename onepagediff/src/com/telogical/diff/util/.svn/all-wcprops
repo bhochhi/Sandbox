@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/diffengine/!svn/ver/58/trunk/src/java/com/telogical/diff/util
+END
+BitUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/diffengine/!svn/ver/16/trunk/src/java/com/telogical/diff/util/BitUtils.java
+END
+ArrayUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/diffengine/!svn/ver/17/trunk/src/java/com/telogical/diff/util/ArrayUtils.java
+END
+ArchiveUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/diffengine/!svn/ver/16/trunk/src/java/com/telogical/diff/util/ArchiveUtils.java
+END
+MappedPropertyEditorRegistrar.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/diffengine/!svn/ver/16/trunk/src/java/com/telogical/diff/util/MappedPropertyEditorRegistrar.java
+END
+ConversionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/diffengine/!svn/ver/16/trunk/src/java/com/telogical/diff/util/ConversionService.java
+END
+EncodingUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/diffengine/!svn/ver/57/trunk/src/java/com/telogical/diff/util/EncodingUtils.java
+END
+EncryptionUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/diffengine/!svn/ver/16/trunk/src/java/com/telogical/diff/util/EncryptionUtils.java
+END
+ByteStringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/diffengine/!svn/ver/16/trunk/src/java/com/telogical/diff/util/ByteStringUtils.java
+END
+CollectionUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/diffengine/!svn/ver/17/trunk/src/java/com/telogical/diff/util/CollectionUtils.java
+END
+ExceptionUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/diffengine/!svn/ver/16/trunk/src/java/com/telogical/diff/util/ExceptionUtils.java
+END
+XMLUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/diffengine/!svn/ver/58/trunk/src/java/com/telogical/diff/util/XMLUtils.java
+END
+ByteUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/diffengine/!svn/ver/17/trunk/src/java/com/telogical/diff/util/ByteUtils.java
+END
+HtmlUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/diffengine/!svn/ver/57/trunk/src/java/com/telogical/diff/util/HtmlUtils.java
+END
+ClassUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/diffengine/!svn/ver/17/trunk/src/java/com/telogical/diff/util/ClassUtils.java
+END
+FileIOUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/diffengine/!svn/ver/17/trunk/src/java/com/telogical/diff/util/FileIOUtils.java
+END
+ConversionServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/diffengine/!svn/ver/16/trunk/src/java/com/telogical/diff/util/ConversionServiceImpl.java
+END
+PrimitiveUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/diffengine/!svn/ver/17/trunk/src/java/com/telogical/diff/util/PrimitiveUtils.java
+END
+InterruptScheduler.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/diffengine/!svn/ver/16/trunk/src/java/com/telogical/diff/util/InterruptScheduler.java
+END
+JarUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/diffengine/!svn/ver/16/trunk/src/java/com/telogical/diff/util/JarUtils.java
+END

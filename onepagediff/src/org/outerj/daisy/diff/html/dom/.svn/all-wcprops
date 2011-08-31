@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/html/dom
+END
+DomTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/html/dom/DomTree.java
+END
+TagNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/html/dom/TagNode.java
+END
+WhiteSpaceNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/html/dom/WhiteSpaceNode.java
+END
+BodyNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/html/dom/BodyNode.java
+END
+Node.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/html/dom/Node.java
+END
+DomTreeBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/html/dom/DomTreeBuilder.java
+END
+ImageNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/html/dom/ImageNode.java
+END
+TextNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/diffengine/!svn/ver/16/trunk/src/java/org/outerj/daisy/diff/html/dom/TextNode.java
+END

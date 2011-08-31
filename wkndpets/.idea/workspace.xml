@@ -26,10 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="comcast_phone_wrapper.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="comcast_phone_wrapper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comcast_phone_wrapper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="2" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.5492611">
+            <state line="7" column="28" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problems.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="8" selection-start="1755" selection-end="1755" vertical-scroll-proportion="0.94054055">
               <folding />
             </state>
           </provider>
@@ -51,7 +60,6 @@
       <list>
         <option value="$PROJECT_DIR$/each_method.rb" />
         <option value="$PROJECT_DIR$/reflection_class.rb" />
-        <option value="$PROJECT_DIR$/problems.rb" />
         <option value="$PROJECT_DIR$/HelloWorld.html" />
         <option value="$PROJECT_DIR$/../../websitemonitor/web/scripts/gridview/accordio.js" />
         <option value="$PROJECT_DIR$/helloworld.js" />
@@ -59,6 +67,7 @@
         <option value="$PROJECT_DIR$/comcast_wrapper.rb" />
         <option value="$PROJECT_DIR$/Comcast Unlimited® - Special Offer.html" />
         <option value="$PROJECT_DIR$/comcast_phone_wrapper.rb" />
+        <option value="$PROJECT_DIR$/problems.rb" />
       </list>
     </option>
   </component>
@@ -170,14 +179,14 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Ruby" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../websitemonitor/web/scripts/gridview" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Ruby.comcast_phone_wrapper">
+  <component name="RunManager" selected="Ruby.problems">
     <configuration default="false" name="each_method" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="wkndpets" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -317,14 +326,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="118" y="-8" width="1490" height="916" extended-state="6" />
+    <frame x="1592" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26108998" sideWeight="0.35675082" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19461697" sideWeight="0.57289004" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1784127" sideWeight="0.57289004" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48792884" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42711" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -402,11 +411,6 @@
         <state line="16" column="27" selection-start="210" selection-end="210" vertical-scroll-proportion="0.30769232" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/problems.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="32" selection-start="977" selection-end="977" vertical-scroll-proportion="0.70264065" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reflection_class.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="51" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" />
@@ -447,9 +451,21 @@
         <state line="8" column="49" selection-start="265" selection-end="265" vertical-scroll-proportion="0.23373175" />
       </provider>
     </entry>
+    <entry file="file://C:/Ruby192/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.3.2/lib/selenium/webdriver/firefox/launcher.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="0" selection-start="1710" selection-end="1710" vertical-scroll-proportion="0.33251232" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/comcast_phone_wrapper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="2" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.5492611">
+        <state line="7" column="28" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="8" selection-start="1755" selection-end="1755" vertical-scroll-proportion="0.94054055">
           <folding />
         </state>
       </provider>
