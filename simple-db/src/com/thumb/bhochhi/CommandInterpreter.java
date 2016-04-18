@@ -5,6 +5,10 @@ import java.util.Map;
 
 public class CommandInterpreter {
 	private Map<String, String> mainStore = new HashMap<String,String>();
+	
+	private String getNumEqualTo(String value){
+		return String.valueOf(mainStore.values().stream().filter(v->v.equals(value)).count());
+	}
 
 	public String execute(String commandLine) throws ArrayIndexOutOfBoundsException, Exception{
 		String[] args = commandLine.split(" ");
@@ -21,7 +25,7 @@ public class CommandInterpreter {
 			mainStore.remove(args[1]);
 			break;
 		case "NUMEQUALTO":			
-			result = String.valueOf(mainStore.values().stream().filter(v->v==args[1]).count());			
+			result = getNumEqualTo(args[1]);			
 			break;
 		case "END":
 			System.exit(0);
