@@ -5,9 +5,9 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class CommandInterpreterTest {
-	CommandInterpreter ci;
+	QueryInterpreter ci;
 	private void given() {
-		ci = new CommandInterpreter();
+		ci = new QueryInterpreter();
 		ci.execute("Set a 10");
 		ci.execute("Set b 10");
 	}

@@ -1,51 +1,71 @@
 package com.thumb.bhochhi;
 
+import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.Optional;
+class Node {
+	private String command;
+	private String variable;
+	private String value;
+	private Node next;
+	
+	public void setCommand(String command) {
+		this.command = command;
+	}
+	
+	public void setVariable(String variable){
+		this.variable = variable;
+	}
+	public String getVariable(){
+		return variable;
+	}
+	public void setValue(String value){
+		this.value = value;
+	}
+	public String getValue(){
+		return value;
+	}
+	
+}
+public class QueryStack{
 
-public class QueryStack extends LinkedList<Node>{
-
-	private Node first;
-	private int nodeCount;
-
-	class Node {
-		private String command;
-		private String variable;
-		private String value;
-		private Node next;
+	private LinkedList<Node> store = new LinkedList<Node>();	
+	
+	public void setQuery(String command,String variable, String value){
+		Node node = new Node(){{
+			setCommand(command);
+			setVariable(variable);
+			setValue(value);
+		}};
+		store.addFirst(node);				
+	}
+	
+	public String getQuery(String variable){
+		 Optional<Node> node = store.stream().filter(n->n.getVariable().equals(variable)).findFirst();
+		 return node.isPresent()?node.get().getValue():"l";
+	}
+	
+	public void unSetQuery(String variable){
+		Iterator<Node> iterater = store.iterator();
+		while(iterater.hasNext()){
+			Node node = iterater.next();
+			if(node.getVariable().equals(variable)){
+				store.remove(node);
+				break;
+			}
+		}		
 	}
 
-	public void push(String command,String variable,String value){
-		Node oldNode = first;
-		first = new Node();
-		first.command=command;
-		first.variable=variable;
-		first.value = value;
-		first.next=oldNode;
-		nodeCount++;
+	public int numEqualTo(String value) {
+		Iterator<Node> iterater = store.iterator();
+		int count=0;
+		while(iterater.hasNext()){
+			Node node = iterater.next();
+			if(node.getValue().equals(value)){
+				count++;
+			}
+		}		
+		return count;		
+	}
 		
-	}
-	
-	public boolean isEmpty(){
-		return first==null;
-	}
-	
-	
-	public void removeElement(String variable){
-		
-	}
-	public String pop(){
-		first = first.next;
-		nodeCount--;
-		return first.value;
-	}
-	
-	public String peek(String variable){
-		
-		return null;
-	}
-	
-	public int size(){
-		return nodeCount;
-	}
-	
 }
