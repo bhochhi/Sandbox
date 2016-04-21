@@ -18,7 +18,7 @@ public class QueryInterpreter {
 				queryStack.setQuery(command, args[1], args[2]);
 				break;
 			case "UNSET":
-				queryStack.unSetQuery(command,args[1]);
+				queryStack.unSetQuery(command, args[1]);
 				break;
 			case "NUMEQUALTO":
 				result = String.valueOf(queryStack.numEqualTo(args[1]));
@@ -33,6 +33,7 @@ public class QueryInterpreter {
 				result = queryStack.rollbackQuery(command);
 				break;
 			case "COMMIT":
+				queryStack.commitTransaction(command);
 				break;
 			default:
 				result = "Invalid Query. Try Again!!";

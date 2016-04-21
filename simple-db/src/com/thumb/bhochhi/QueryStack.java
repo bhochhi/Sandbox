@@ -59,13 +59,17 @@ public class QueryStack {
 		return node.getCommand().equals("BEGIN");
 	}
 
+	private boolean isCommitNode(Node node) {
+		return node.getCommand().equals("COMMIT");
+	}
+
 	private boolean isUnSetNode(Node node) {
 		return node.getCommand().equals("UNSET");
 	}
 
 	public String getQuery(String variable) {
-		Optional<Node> node = store.stream().filter(n -> !isBiginNode(n) && n.getVariable().equals(variable))
-				.findFirst();
+		Optional<Node> node = store.stream()
+				.filter(n -> !isBiginNode(n) && !isCommitNode(n) && n.getVariable().equals(variable)).findFirst();
 
 		return node.isPresent() && !isUnSetNode(node.get()) ? node.get().getValue() : null;
 	}
@@ -81,15 +85,18 @@ public class QueryStack {
 	}
 
 	public int numEqualTo(String value) {
+
 		ArrayList<String> unSetVariables = new ArrayList<String>();
 		ArrayList<String> matchedVariables = new ArrayList<String>();
 		Iterator<Node> iterater = store.iterator();
 		while (iterater.hasNext()) {
 			Node node = iterater.next();
+			// TODO: simplify!!
 			if (isUnSetNode(node) && !matchedVariables.contains(node.getVariable())) {
 				unSetVariables.add(node.getVariable());
-			} else if (!isUnSetNode(node) && !isBiginNode(node) && !unSetVariables.contains(node.getVariable())
-					&& !matchedVariables.contains(node.getVariable()) && node.getValue().equals(value)) {
+			} else if (!isUnSetNode(node) && !isBiginNode(node) && !isCommitNode(node)
+					&& !unSetVariables.contains(node.getVariable()) && !matchedVariables.contains(node.getVariable())
+					&& node.getValue().equals(value)) {
 				matchedVariables.add(node.getVariable());
 			}
 		}
@@ -105,25 +112,39 @@ public class QueryStack {
 		store.addFirst(node);
 	}
 
-	private Node getBeginNode() {
-		
-		return store.stream().filter(n -> n.getCommand().equals("BEGIN")).findFirst().orElse(null);
+	public void commitTransaction(String command) {
+		Node node = new Node() {
+			{
+				setCommand(command);
+			}
+		};
+		store.addFirst(node);
+	}
+
+	private int getBeginNodeIndex() {
+
+		for (int i = 0; i < store.size(); i++) {
+			Node node = store.get(i);
+			if (node.getCommand().equals("COMMIT")) {
+				return -1;
+			} else if (node.getCommand().equals("BEGIN")) {
+				return i;
+			}
+		}
+		return -1;
+		// return store.stream().filter(n ->
+		// n.getCommand().equals("BEGIN")).findFirst().orElse(null);
 	}
 
 	public String rollbackQuery(String command) {
-		Node beginNode = getBeginNode();
-		int idx = store.indexOf(beginNode);
-		
-		if (beginNode == null) {
+		int idx = getBeginNodeIndex();
+		if (idx == -1) {
 			return "NO TRANSACTION";
 		} else {
-			while (true) {
-//				 Node node = store.peekFirst();
-//				 if(node)
-//				 if(node.getCommand().equals("BEGIN")){
-//				 break;
-//				 }
+			while (idx > -1) {
+				store.remove(idx--);
 			}
+			return "";
 		}
 	}
 }

@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
+//		System.out.println(args);
 
 		QueryInterpreter commandInterpreter = new QueryInterpreter();
 		try (Scanner sc = new Scanner(System.in)) {
