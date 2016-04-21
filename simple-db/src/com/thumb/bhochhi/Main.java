@@ -11,10 +11,13 @@ public class Main {
 			while (true) {
 				String commandLine = sc.nextLine();
 				String result = commandInterpreter.execute(commandLine);
-				if(result.equals("END")){
+				if(result!=null && result.equals("END")){
 					break;
 				}
-				System.out.println(result);
+				else if(result == null || !result.equals("")){
+					System.out.println(result);	
+				}
+				
 			}
 		} 
 
