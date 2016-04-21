@@ -1,24 +1,16 @@
-HOWTO run:
+Compiling the program
+---
+* CD to project directory and create bin folder
+* compile the src into bin directory
 
-1. CD to project directory and create bin folder
-2. compile the src into bin directory
+``` javac -d bin src/**/*.java ```
 
-```
-javac -d bin src/**/*.java
- 
-```
+Executing the program
+---
+```java -cp bin/ com.thumb.bhochhi.Main input.txt``` 
 
-3. Create executable jar
+or using executable jar
 
-```
-jar cvfe simple-db.jar com.thumb.bhochhi.Main  -C bin/ com
-```
-
-4. Run the simple-db.jar file.
-
-```
-java -jar simple-db.jar
-```
-
-
-HOW
+```jar cvfe simple-db.jar com.thumb.bhochhi.Main  -C bin/ com```
+then
+```java -jar simple-db.jar input.txt```

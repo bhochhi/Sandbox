@@ -1,5 +1,6 @@
 package com.thumb.bhochhi;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class MainTest {
@@ -7,8 +8,12 @@ public class MainTest {
 	
 	@Test
 	public void testExecutionWithFile(){
-		Main app = new Main();
-		String[] agrs ={"../input.txt"};
-		app.main(agrs);
+		try{
+			String[] agrs ={"input.txt"};
+			Main.main(agrs);	
+		}catch(Exception e){
+			Assert.fail();
+		}
+		
 	}
 }

@@ -1,3 +1,6 @@
 SET a 1
 Set b 3
+Set x 1
 GET a
+numequalto 1
+end
