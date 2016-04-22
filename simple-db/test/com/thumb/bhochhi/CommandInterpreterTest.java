@@ -124,5 +124,12 @@ public class CommandInterpreterTest {
 
 		result = ci.execute("numEqualto 20");
 		assertEquals("3", result);
+		
+		
+		result = ci.execute("commit");
+		assertEquals("NO TRANSACTION", result);
+
+		result = ci.execute("rollback");
+		assertEquals("NO TRANSACTION", result);
 	}
 }

@@ -33,7 +33,7 @@ public class QueryInterpreter {
 				result = queryStack.rollbackQuery(command);
 				break;
 			case "COMMIT":
-				queryStack.commitTransaction(command);
+				result = queryStack.commitTransaction(command);
 				break;
 			default:
 				result = "Invalid Query. Try Again!!";

@@ -3,4 +3,23 @@ Set b 3
 Set x 1
 GET a
 numequalto 1
+set a 4
+set d 4
+begin
+set a 3
+get a
+numequalto 2
+rollback
+commit
+commit
+get a
+begin
+set a 5
+numequalto 3
+begin 
+set a 3
+set b 2
+commit
+rollback
+get a
 end
