@@ -1,9 +1,12 @@
 package com.thumb.bhochhi;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
+/**
+ * Not in its best form but does the job for now!!
+ */
 public class CommandInterpreterTest {
 	private QueryInterpreter ci;
 	private String result;

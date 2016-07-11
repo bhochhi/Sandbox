@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<configuration>
+  <connectionStrings>
+    <add name="DocumentRepository" connectionString="server=OkCi1\SqlExpress2005;database=Qlikview;Integrated Security=SSPI;"/>
+	<add name="UserRepository" connectionString="server=OkCi1\SqlExpress2005;database=Qlikview;Integrated Security=SSPI;"/>
+  </connectionStrings>
+<startup><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/></startup></configuration>

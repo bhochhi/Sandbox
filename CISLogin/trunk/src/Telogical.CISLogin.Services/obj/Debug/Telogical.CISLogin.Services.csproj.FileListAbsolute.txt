@@ -1,0 +1,11 @@
+C:\projects\CISLogin\trunk\src\Telogical.CISLogin.Services\bin\Debug\Telogical.CISLogin.Services.dll
+C:\projects\CISLogin\trunk\src\Telogical.CISLogin.Services\bin\Debug\Telogical.CISLogin.Services.pdb
+C:\projects\CISLogin\trunk\src\Telogical.CISLogin.Services\bin\Debug\Castle.Core.dll
+C:\projects\CISLogin\trunk\src\Telogical.CISLogin.Services\bin\Debug\Castle.Windsor.dll
+C:\projects\CISLogin\trunk\src\Telogical.CISLogin.Services\bin\Debug\Castle.Core.pdb
+C:\projects\CISLogin\trunk\src\Telogical.CISLogin.Services\bin\Debug\Castle.Core.xml
+C:\projects\CISLogin\trunk\src\Telogical.CISLogin.Services\bin\Debug\Castle.Windsor.pdb
+C:\projects\CISLogin\trunk\src\Telogical.CISLogin.Services\bin\Debug\Castle.Windsor.xml
+C:\projects\CISLogin\trunk\src\Telogical.CISLogin.Services\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\CISLogin\trunk\src\Telogical.CISLogin.Services\obj\Debug\Telogical.CISLogin.Services.dll
+C:\projects\CISLogin\trunk\src\Telogical.CISLogin.Services\obj\Debug\Telogical.CISLogin.Services.pdb

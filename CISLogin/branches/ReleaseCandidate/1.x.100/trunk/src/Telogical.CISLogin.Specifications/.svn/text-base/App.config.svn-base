@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<configuration>
+  <appSettings>
+    <add key="ReportFilePath" value="\\txweb2\inetpub\wwwroot\Competitor_7-0\Reports\"/>
+  </appSettings>
+  <connectionStrings>
+    <add name="DocumentRepository" connectionString="server=OkCi1\SqlExpress2005;database=Qlikview;Integrated Security=SSPI;"/>
+	  <add name="UserRepository" connectionString="server=OkCi1\SqlExpress2005;database=Qlikview;Integrated Security=SSPI;"/>
+    <add name="ReportRepository" connectionString="server=Okdb1;database=CPM7;Integrated Security=SSPI;"/>
+  </connectionStrings>
+<startup><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/></startup></configuration>

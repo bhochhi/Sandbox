@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/vendor/normalize.css/normalize.css"/>
+  <link rel="stylesheet" href="main.css" />
+
+  <body ng-app="planningPoker">
+    <header>
+      <div class="container">
+        <h2>Planning Poker</h2>
+      </div>
+    </header>
+
+    <main>
+      <div class="container" ng-view></div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.js"></script>
+    <script src="https://cdn.firebase.com/js/client/1.0.21/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/0.8.2/angularfire.min.js"></script>
+    <script src="bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+require 'fileutils'
+require 'win32ole'
+
+def current_directory
+  File.dirname(__FILE__)
+end
+
+network=WIN32OLE.new("Wscript.Network")
+NAME = network.UserName
+COMPUTER = network.ComputerName
+DOMAIN = network.UserDomain  
+DOT_NET_PATH = "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+TEST_RUNNER_PATH = "#{current_directory}\\tools\\nunit\\2.5.9\\nunit-console.exe"
+SOLUTION = "#{current_directory}\\src\\Telogical.CISLogin.sln"
+CONFIG = "Debug"
+PLATFORM = "ANY CPU"
+BUILD_REPORT_DIR = "#{current_directory}\\build\\buildlogs"
+UNIT_TESTS_REPORTS = "#{BUILD_REPORT_DIR}\\nunit\\TestResult.xml"
+NCOVER_REPORTS = "#{BUILD_REPORT_DIR}\\ncover"
+INTEGRATION_TESTS_REPORTS = "#{BUILD_REPORT_DIR}\\IntegrationTests"
+NUNIT_RUNNER_PATH = "#{current_directory}\\tools\\NUnit\\nunit-console.exe"
+NDEPEND_RUNNER_PATH = "#{current_directory}\\tools\\ndepend\\3.7\\ndepend.console.exe"
+METRICS_REPORTS = "#{BUILD_REPORT_DIR}\\ndepend"
+NCOVER_RUNNER = "#{current_directory}\\tools\\ncover\\3.4\\ncover.console.exe"
+INCLUDED_COVERAGE = "Telogical.CISLogin.*"
+TEST_ASSEMBLY = "#{current_directory}\\src\\Telogical.CISLogin.Specifications\\bin\\debug\\Telogical.CISLogin.Specifications.dll"
+EXCLUDED_METHODS_FROM_COVERAGE = ".*.Equals; .*.GetHashCode"
+task :default => ["build:quick"]
+ 
+namespace :build do
+
+  task :quick => [:compile, :test]
+  task :full => [:compile, :coverage, :metrics]
+  
+  desc "Clean report directories"
+  task :clean do
+    dir = "#{UNIT_TESTS_REPORTS}"
+    removeFiles(dir)
+    dir = "#{INTEGRATION_TESTS_REPORTS}"
+    removeFiles(dir)
+  end
+
+  def removeFiles(dir)
+    Dir.foreach(dir) do |f|
+      fullPath = dir + "\\" + f
+      if f == '.gitignore' or f == '.' or f == '..' then next
+      elsif File.directory?(f) then FileUtils.rm_rf( fullPath, :noop => false, :verbose => false)
+      else FileUtils.rm( fullPath, :noop => false, :verbose => false)
+      end
+    end
+  end
+ 
+  desc "Use MSBuild to build the solution: '#{SOLUTION}'"
+  task :compile do
+    #sh "#{DOT_NET_PATH}msbuild.exe /p:Configuration=#{CONFIG} #{SOLUTION}"
+    sh "#{DOT_NET_PATH}msbuild.exe #{SOLUTION} /p:Configuration=#{CONFIG} /p:Platform=\"#{PLATFORM}\""
+  end
+     
+  desc "Executes class specifications (BDD)"
+  task :test do
+    sh "#{TEST_RUNNER_PATH} #{TEST_ASSEMBLY} /out:#{UNIT_TESTS_REPORTS}"    
+  end 
+  
+  desc "Executes class specifications (BDD)"
+  task :coverage do
+    specs = Dir.glob(File.join("#{current_directory}/src/**/bin/**", "Telogical.CISLogin.Specifications.dll")).join " "
+    sh "#{NCOVER_RUNNER} //em \"#{EXCLUDED_METHODS_FROM_COVERAGE}\" //ias #{INCLUDED_COVERAGE} //p CISLogin //w #{NCOVER_REPORTS} //h #{NCOVER_REPORTS}\\TestCoverage.html //at #{NCOVER_REPORTS}\\coverage.trend //x #{NCOVER_REPORTS}\\coverage.cccov //l #{NCOVER_REPORTS}\\coverage.log //ll Normal #{TEST_RUNNER_PATH} #{TEST_ASSEMBLY}" 
+  end 
+  
+  desc "Runs NDepend metrics analysis NDEPEND"
+  task :metrics do
+	path = File.join("#{current_directory}", "\\build\\CISLogin_NDepend.xml").gsub("/","\\")
+	output = File.join("#{METRICS_REPORTS}").gsub("/","\\")
+	sh "#{NDEPEND_RUNNER_PATH} #{path} /OutDir #{output}"
+  end
+  
+end

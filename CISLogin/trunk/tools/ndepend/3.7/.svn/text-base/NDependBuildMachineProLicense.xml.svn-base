@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<NDependProLicense>
+  <LicenseId>5D7RO4V1C</LicenseId>
+  <LicenseKind>2</LicenseKind>
+  <CompanyName>Telogical Systems  LLC</CompanyName>
+  <CompanyAddress1>765 Asp Ave</CompanyAddress1>
+  <CompanyAddress2>Suite 206</CompanyAddress2>
+  <City>Norman</City>
+  <StateProvince>OK</StateProvince>
+  <ZipPostalCode>73069</ZipPostalCode>
+  <Country>us (United States)</Country>
+  <ContactFirstName>Raymond</ContactFirstName>
+  <ContactLastName>Lewallen</ContactLastName>
+  <ContactEmail>rlewallen@telogical.com</ContactEmail>
+  <ContactAlternativeEmail />
+  <ContactPhone>703-734-7776</ContactPhone>
+  <LicenseQuantity>1</LicenseQuantity>
+  <NDependVersion>3</NDependVersion>
+  <OrderDate>29/03/2011 07:56:00</OrderDate>
+  <Signature>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+         <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+         <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+         <Reference URI="">
+           <Transforms>
+             <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+           </Transforms>
+           <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+           <DigestValue>NtF+7U03lCLkLnM9WU1H9IZr980=</DigestValue>
+         </Reference>
+       </SignedInfo>
+       <SignatureValue>Ml+3KC4h3WEcX0Pnr6jHWMgrU4BHLJfzZMZeZT6nvbmh9nxbG7kxPt2NuVGfL/fpdRaN0e2PFWRyzwfCM+Cxg6Fd7J28b5zl/pItjFhwfkFTVwZqeHl+Lj1+Jv+o6xRqhXXudKBPOgoQzzJJGGCZKcTLXZJDys89ICGGlrMy+04=2</SignatureValue>
+      </Signature>
+</Signature>
+</NDependProLicense>

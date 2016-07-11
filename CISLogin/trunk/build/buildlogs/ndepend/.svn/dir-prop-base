@@ -1,0 +1,19 @@
+K 10
+svn:ignore
+V 291
+2011_03
+AbstractnessVSInstability.png
+ApplicationMetrics.xml
+AssembliesBuildOrder.xml
+AssembliesDependencies.xml
+AssembliesMetrics.xml
+CQLResult.xml
+ComponentDependenciesDiagram.png
+InfoWarnings.xml
+NDependMain.xml
+NDependReport.html
+TypesMetrics.xml
+VisualNDepend.bin
+VisualNDependView.png
+
+END

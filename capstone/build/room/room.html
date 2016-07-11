@@ -1,0 +1,51 @@
+
+<section class="control group">
+  <button id="reset-btn" ng-click="room.reset()">
+    Reset
+  </button>
+
+  <button id="show-btn" ng-click="room.show()">
+    Show
+  </button>
+
+  <span class="status" ng-show="room.attributes.show">
+    Vote completed! Reset to vote again.
+  </span>
+  <span class="status" ng-show="!room.attributes.show">
+    Time to vote!
+  </span>
+
+  <span class="join-uri">
+    Join Room Url:
+    <input type="text" value="{{room.joinUri()}}" readonly>
+  </span>
+</section>
+
+<section class="users">
+  <div class="row group" ng-repeat="user in room.users">
+
+    <div class="name">
+      {{user.name}}
+    </div>
+
+    <div ng-if="user.card!='' && room.attributes.show" class="card">
+      {{user.card}}
+    </div>
+
+    <div ng-if="user.card!='' && !room.attributes.show" class="card hidden">
+      &nbsp;
+    </div>
+
+    <div ng-if="user.card==''" class="no-card">
+      -
+    </div>
+  </div>
+</section>
+
+
+<section class="cards group">
+  <button class="card" ng-click="room.vote(card)" ng-repeat="card in room.cards"
+       ng-class="{selected: card===selectedCard}">{{card}}</button>
+
+</section>
+
