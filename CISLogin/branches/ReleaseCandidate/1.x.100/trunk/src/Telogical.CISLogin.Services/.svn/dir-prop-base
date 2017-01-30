@@ -1,8 +1,0 @@
-K 10
-svn:ignore
-V 48
-bin
-obj
-Telogical.CISLogin.Services.csproj.user
-
-END

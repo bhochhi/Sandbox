@@ -1,5 +1,0 @@
-<Modules>
-  <Module PersistentId="25B1DD4F-8B3D-4BCB-98FA-14EB1DBBDFF3" ModuleId="Telogical.CISLogin.Specifications" />
-  <Module PersistentId="1CE89133-204C-4183-9D1E-5F87DB53A2ED" ModuleId="Telogical.CISLogin.Services" />
-  <Module PersistentId="6EF1B6D0-247C-4882-985F-144ACA033956" ModuleId="Telogical.CISLogin.Web" />
-</Modules>
